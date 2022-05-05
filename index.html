@@ -401,7 +401,7 @@
 					<section class="wrapper style1 align-center" id="GetInTouch">
 						<div class="inner medium">
 							<h2>Get in touch</h2>
-							<form method="post" action="#">
+							<form actrion="post" data-netlify="true">
 								<div class="fields">
 									<div class="field half">
 										<label for="name">Name</label>
@@ -414,6 +414,9 @@
 									<div class="field">
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+									<div class="field">
+										<div data-netlify-recaptcha="true"></div>
 									</div>
 								</div>
 								<ul class="actions special">
